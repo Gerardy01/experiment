@@ -37,13 +37,13 @@ export default function ScrollThree() {
                     <div className="w-full h-full bg-blue-200 flex justify-center items-center">
                         <h1 
                             className='text-7xl'
-                            style={{ transform: `translate(-${calculateTransform(screenPos, 0, 30, 10)}%, 0px)` }}
+                            style={{ transform: `translate(-${calculateTransform(screenPos, 0, 20, 7)}%, 0px)` }}
                         >HELLO WORLD!</h1>
                     </div>
                 </section>
                 <section 
                     className="w-full h-[400vh] absolute top-0 z-[3]"
-                    style={{ transform: `translate(0px, ${-1 * calculateTransform2x(screenPos, 40, 100, sectionCount)}%)` }}
+                    style={{ transform: `translate(0px, ${-1 * calculateTransform2x(screenPos, 25, 100, sectionCount)}%)` }}
                 >
                     <div className="w-full h-full bg-green-200 flex justify-center items-center flex flex-col justify-around items-center">
                         <h1 className='text-7xl'>WELCOME</h1>
