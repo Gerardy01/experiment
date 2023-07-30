@@ -30,7 +30,7 @@ export default function ScrollThree() {
                 <section 
                     className="w-full h-full absolute top-0 z-[2]"
                     style={{
-                        opacity: `${reverseCalculateOpacity(screenPos, 40, 55, 0)}`,
+                        opacity: `${reverseCalculateOpacity(screenPos, 25, 40, 0)}`,
                         transform: `translate(0px, -${calculateTransform(screenPos, 80, 90, 0)}%)`
                     }}
                 >
