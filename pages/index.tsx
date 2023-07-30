@@ -40,7 +40,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full" style={{ minHeight: `${(screenHeight * sectionCount) + 300}px` }}>
+    <div className="w-full box-content" style={{ paddingBottom: `${(screenHeight * sectionCount) + 300}px` }}>
       <div className='fixed w-full h-full bg-black'>
         <section
           className="w-full h-screen relative z-[10] absolute top-0"
